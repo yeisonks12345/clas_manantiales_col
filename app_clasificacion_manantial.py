@@ -7,7 +7,7 @@ st.set_page_config(page_title="Clasificación de manantiales en Colombia, a part
                    initial_sidebar_state="auto")
 
 st.title("Clasificación de manantiales en Colombia, a partir de un modelo de regresión logística")
-st.write("Para clasificar los manantiales se usan los datos suministrados por el servicio geológico colombiano, se usan 127 puntos, las varaibles descriptoras son: caudal, temperatura, olor, conductividad eléctrica, ph in situ, para entrenar y validar el modelo se usan manantiales previamente clasificados en clorurados y sulfatados, se usa un modelo de machine learning; regresión logística que permité clasificar los manantiales arrojando un accuracy de 0.61")
+st.write("Para clasificar los manantiales se usan los datos suministrados por el servicio geológico colombiano, se usan 127 registros, las variables descriptoras son: caudal, temperatura, olor, conductividad eléctrica, ph in situ, para entrenar y validar el modelo se usan manantiales previamente clasificados en clorurados y sulfatados, se usa un modelo de machine learning; regresión logística que permite clasificar los manantiales arrojando un accuracy de 0.61")
 st.title("Modelo de regresión logística")
 st.write("La regresión logística es un algoritmo de aprendizaje supervisado utilizado para la clasificación binaria. Predice la probabilidad de que una observación pertenezca a una de dos clases posibles. En lugar de predecir valores continuos como la regresión lineal, utiliza la función sigmoide para modelar la probabilidad de la clase objetivo.")
 st.title("Desarrollo de la aplicación")
